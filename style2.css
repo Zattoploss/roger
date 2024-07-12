@@ -1,0 +1,44 @@
+*{margin: 0;}
+#header_top{
+    display: grid;
+    grid-template-columns: 30% 10% 20% 20% 20%;
+background-color: rgb(177, 168, 168);
+}
+#header_below{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    color: black;
+    text-align: center;
+   
+}   
+#display_flex{
+    display: 
+    flex;
+    padding-left: 19%;
+}
+
+#Linha_2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.grid_grande{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: 100px 100px 100px 100px;
+    border: solid black 1px;
+
+}
+
+.grid_grande div{
+
+    border: solid black 1px;
+
+    
+}
+
+.grid_pequena{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
